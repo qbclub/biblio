@@ -1,6 +1,6 @@
 var container = document.getElementById("container");
 
-$("button").click(giveMe())
+$("button").click(giveMe)
 
 function giveMe() {
 
