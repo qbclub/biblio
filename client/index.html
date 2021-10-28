@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,20 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <button @click="giveMe" >Дай погоду</button>
-    <div id="container"></div>
-    
+    <button @click="giveMe">Дай погоду</button>
+    <table id="table" >
+        <tr>
+            <th>date</th>
+            <th>temperatureC</th>
+            <th>temperatureF</th>
+            <th>summary</th>
+        </tr>
+    </table>
+
 </body>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="script.js"></script>
+
 </html>
